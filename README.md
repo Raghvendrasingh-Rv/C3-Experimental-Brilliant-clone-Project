@@ -1,3 +1,27 @@
+# Libraries
+`ReactJS`
+# Modules
+ `React`, `React-dom`, `Router-dom`,`Hooks`,`package.json`
+## Step:-
+1. Clone this file using pull request.\
+2. Type in your command prompt `npm start`.\
+3. In this project, The functional part is to navigation from one LOGIC page to WARMUP PUZZLES page.\
+4. So, Just click on the warmup puzzle card (you are now in warmup puzzle page).\
+5. You can change the puzzles with the `Button` which is in the right side section.\
+6. Click on `Back` link in left side section it will direct you to it's main page.
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
