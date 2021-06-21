@@ -1,0 +1,111 @@
+.site-header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 60px;
+    border-bottom: 1px solid #ECEDEF;
+    background: #FFFFFF;
+    z-index: 400;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 12px;
+}
+.hdr-links{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: 0;
+}
+.hdr-logo{
+    height: auto;
+    width: 174px;
+    margin: 8px 68px 0 0;
+}
+.hdr-logo a{
+    display: inline-block;
+}
+.logo-image{
+    /* background-image: url(/site_media/version-V85a073e0692/build/sprites-v2/global.png); */
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    text-indent: -9999px;
+    width: 173.5px;
+    height: 42px;
+}
+.header-links-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.hdr-link{
+    display: inline-block;
+    margin-top: 9px;
+    margin-right: 48px;
+    line-height: 24px;
+    padding: 9px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 13px;
+    color: #5D7E8E;
+    cursor: pointer;
+}
+.active{
+    color: #1F1F1F;
+    font-weight: bold;
+    padding-top: 8px;
+}
+.hdr-search{
+    position: relative;
+    flex-grow: 2;
+    margin: 14px 24px 0 0;
+    width: auto;
+}
+.hdr-login{
+    width: 100%;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    padding: 3px 16px;
+    margin-bottom: 0;
+    font-family: "Soleil", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    *line-height: 20px;
+    color: #1F1F1F;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #ECEDEF;
+    border: 1px solid #B6BEC7;
+    outline: none;
+    border-radius: 4px;
+    transition: box-shadow 100ms linear, color 100ms linear;
+    touch-action: manipulation;
+}
+.login-link{
+    background: none;
+    border: 1px solid #039BE5;
+    color: #039BE5;
+    width: 176px;
+    width: 176px;
+    float: right;
+    margin: 14px 0 13px 14px;
+}
+.signup-btn{
+    border: 1px solid #039BE5;
+    background: #039BE5;
+    color: #FFFFFF;
+    width: 176px;
+    float: right;
+    margin: 14px 0 13px 14px;
+}

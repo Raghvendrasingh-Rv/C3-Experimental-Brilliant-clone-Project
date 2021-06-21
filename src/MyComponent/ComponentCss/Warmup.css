@@ -1,0 +1,133 @@
+.warmup-page{
+    display: flex;
+    flex-direction: row;
+}
+.course-sidebar{
+    height: 0;  
+    color: #fff;
+    top: 50px;
+}
+.course-sidebar .inner{
+    position: fixed;
+    top: 50px;
+    left: 2px;
+    /* right: 50%; */
+    width: 20%;
+    height: 100%;
+    margin-right: 46px;
+    background: #000;
+}
+
+.course-sidebar .inner>div{
+    display: flex;
+    flex-direction: column;
+    width: 128px;
+    height: 100%;
+    padding: 100px 8px 8px 0;
+    margin: 0 auto;
+    /* z-index: 1; */
+}
+
+.col .col-right{
+    float: right;
+    margin-right: 0;
+    margin-left: 24px;
+}
+
+.course-sidebar .back{
+    margin-bottom: 20px;
+}
+.course-sidebar .back a{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    opacity: .5;
+}
+.course-sidebar h3{
+    flex: 1;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    opacity: .7;
+}
+.Course-quiz-flex{
+    display: flex;
+    height: 100vh;
+    margin: auto;
+}
+.course-quiz-sidebar{
+    top: 50px;
+    position: relative;
+    float: left;
+    width: 326px;
+    padding: 48px 32px 88px 48px;
+    border-left: .5px solid #f0f0f0;
+    /* z-index: 1; */
+
+}
+.back a:hover{
+cursor: pointer;
+color: rgb(161, 19, 0);
+transform: scale(1.1);
+font-weight: bold;
+text-decoration: underline;
+}
+.sidebar-header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.btn-link{
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    opacity: 0.5;
+}
+.course-quiz-sidebar h1{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+}
+.btns{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.btn-small:hover{
+    background-color:rgb(184, 184, 184);
+    opacity: 0.9;
+    transform:scale(1.2);
+}
+.btn-big{
+    width: 30px;
+    height: 30px;
+    opacity: 0.5;
+}
+.btn-small{
+    margin-top: 10px;
+    width: 30px;
+    height: 10px;
+    border: 0.1px solid gray;
+}
+.course-quiz-content{
+    /* float: left; */
+    /* width: 800px; */
+    /* margin-left: 300px; */
+    padding: 48px 32px 88px 48px;
+    border-left: .5px solid #f0f0f0;
+}
+
+.quiz-image{
+    margin-top: 50px;
+    width: 600px;
+    height: 100%;
+    background-size: cover;
+}

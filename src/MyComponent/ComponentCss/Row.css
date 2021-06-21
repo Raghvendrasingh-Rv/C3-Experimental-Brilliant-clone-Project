@@ -1,0 +1,34 @@
+.rows{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    position: relative;
+    margin-bottom: 24px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.rowHeader{
+    display: flex;
+    align-items: center;
+}
+.rowHead{
+    display: block;
+}
+
+.rowHead h3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.rowHeader p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}

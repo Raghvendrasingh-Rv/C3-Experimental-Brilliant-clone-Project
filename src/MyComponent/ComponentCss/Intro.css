@@ -1,0 +1,197 @@
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    color: #1F1F1F;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/* section{
+    display: flex;
+    justify-content: center;
+} */
+.chapters{
+    padding: 64px 0 0;
+   
+}
+.chapter ol{
+    width: 100%;
+}
+.anchor{
+    position: relative;
+    top: -80px;
+    
+    color: #005FFA;
+}
+/* ol{
+    padding: 0;
+    margin: 0 0 0.8em 25px;
+    width: 100%;
+    list-style: none;
+} */
+/* li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+} */
+ol.unstyled{
+    margin-left: 0;
+    list-style: none;
+}
+.chapter{
+    position: relative;
+    margin-bottom: 24px;
+}
+.chapter header{
+    display: flex;
+    align-items: center;
+}
+
+.quiz-container{
+    width: 1200px;
+    margin-right: auto;
+    /* margin-left: auto; */
+    padding: 0 12px;
+}
+.chapter .chapter-number{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 33px;
+    margin-right: 24px;
+    font-size: 16px;
+}
+.chapter-number span {
+    width: 30px;
+    height: 30px;
+    padding-left: 7px;
+    color: rgb(7, 84, 104);
+    border-radius: 50%;
+    background-color: rgb(159, 181, 209);
+    border: lightgray 2px solid;
+}
+.chapter header{
+    display: flex;
+    align-items: center;
+}
+.chapter header h3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.chapter header p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5)
+}
+.chapter header div{
+    display: block;
+}
+.quizzes{
+    position: relative;
+    overflow: scroll;
+    padding: 24px 0;
+}
+
+
+.quizzes::-webkit-scrollbar{
+    display: none;
+}
+
+.quizzes{
+    -ms-overflow-style: none;
+    scrollbar-width: 0px;
+}
+.chapters ol{
+    width: 100%;
+}
+
+.quizzes ol{
+    display: flex;
+    justify-content: flex-start;
+   
+    width: 1200px;
+}
+.quizzes li{
+    display: flex;
+    flex: none;
+    /* width: 328px; */
+    margin-right: 32px;
+}
+
+.quiz-wrapper{
+    position: relative;
+}
+.quiz-item{
+    border: 2px solid transparent;
+    transition: border-color 100ms linear;
+}
+.quiz{
+    position: relative;
+    display: flex;
+    width: 470px;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 24px 24px;
+    border: 2px solid rgba(0, 0, 0, 0.14);
+    background: #FFFFFF;
+    transition: border-color 100ms linear, box-shadow 100ms linear;
+    z-index: 1;
+}
+.quiz:hover{
+    transform: scale(1.02);
+}
+.img{
+    flex: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 280px;
+    height: 168px;
+    margin-bottom: 24px;
+    background-color: #E7E7E9;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 18px;
+    line-height: 24px;
+}
+.brioche-bg{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    flex: 1;
+}
+.quiz h4{
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #000000;
+}
+.quiz p{
+    margin: 0 0 20px 0;
+}
+
+.progress{
+    flex: none;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.06);
+}
